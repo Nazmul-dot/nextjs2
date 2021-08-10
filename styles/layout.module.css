@@ -1,0 +1,22 @@
+.layout{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 90vh;
+}
+.side{
+    /* border: 2px solid rgb(190, 99, 99); */
+    width: 120px;
+}
+.header{
+    /* height: 70px; */
+    /* border: 2px solid gold; */
+}
+.main{
+    /* border: 2px solid rgb(99, 190, 134); */
+    flex:1
+}
+.pages{
+    /* border:2px solid saddlebrown; */
+    height: calc(100% - 70px);
+    margin: 0px 30px;
+}
